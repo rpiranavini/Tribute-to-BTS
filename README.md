@@ -1,3 +1,3 @@
-# tribute to KimTaehyung
-tribute-to-Kim-Taehyung for learning purpose
+# Tribute to BTS
+Tribute to BTS for learning purpose
 
