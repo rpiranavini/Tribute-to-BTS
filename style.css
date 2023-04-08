@@ -1,6 +1,9 @@
+
 .MEMBERS{
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .M{
     display: flex;
@@ -21,8 +24,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color:lightgray;
-    color: #2c2c2c;
+    background-color:#040d28;
+    color: #ffffff;
     padding: 15px;
     transform: translateY(100%);
     transition: transform 0.3s ease;
@@ -36,4 +39,35 @@
 .intro p1{
     font-size: 20px;
  
+}
+a{
+    text-decoration: underline;
+    color: #6aa1c4;
+}
+body {
+   
+    background-color: #4b3f72; 
+    animation: changeBgColor 10s ease-in-out infinite;
+   
+}
+@keyframes changeBgColor {
+    0% {
+        background-color: #251749; 
+    }
+    50% {
+        background-color: #150a25; 
+    }
+    100% {
+        background-color:#251749; 
+       
+    }
+
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 100px;
+    width: 50px;
 }
