@@ -1,11 +1,11 @@
-
-.MEMBERS{
+.MEMBERS {
     background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.M{
+
+.M {
     display: flex;
     height: 400px;
     width: 300px;
@@ -13,61 +13,76 @@
     position: relative;
     overflow: hidden;
 }
-.M img{
+
+.M img {
     height: 100%;
     width: 100%;
     object-fit: fill;
     transition: 0.3s ease;
 }
-.intro{
+
+.intro {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color:#040d28;
+    background-color: #18052d;
     color: #ffffff;
     padding: 15px;
     transform: translateY(100%);
     transition: transform 0.3s ease;
 }
-.M:hover img {transition:0.3s;
+
+.M:hover img {
+    transition: 0.3s;
     scale: 1.1;
 }
-.M:hover .intro{
+
+.M:hover .intro {
     transform: translateY(0);
 }
-.intro p1{
+
+.intro p1 {
     font-size: 20px;
- 
+
 }
-a{
+
+a {
     text-decoration: underline;
     color: #6aa1c4;
 }
-body {
-   
-    background-color: #4b3f72; 
-    animation: changeBgColor 10s ease-in-out infinite;
-   
-}
-@keyframes changeBgColor {
-    0% {
-        background-color: #251749; 
-    }
-    50% {
-        background-color: #150a25; 
-    }
-    100% {
-        background-color:#251749; 
-       
-    }
 
-}
+main {
+   
+        background-image: url(https://i.pinimg.com/originals/b7/53/90/b7539074e0293ccb6262872a2bca1cd7.png);
+        background-size: cover;
+      }
+    
+
 
 #logo {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 30px;
+    right: 30px;
     height: 100px;
     width: 50px;
+}
+header{
+    font-size: 60px;
+   top: 40px;
+   left: 45px;
+position: absolute;
+    color:  #dbc598eb;
+}
+body{
+   
+    background: linear-gradient(to bottom, #e77fcf, #8aa6d1, #cfcf8a);
+}
+nav{
+    right: 120px;
+    top: 80px;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 20px;
+   
 }
