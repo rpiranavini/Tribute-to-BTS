@@ -78,6 +78,7 @@ header{
 position: absolute;
     color:  #3a3c5feb;
 }
+
 body{
    
     background-color: #59677c;
@@ -187,3 +188,18 @@ h1{
     color: #0a0b18;
     overflow: hidden;
  }
+ .logo{
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
