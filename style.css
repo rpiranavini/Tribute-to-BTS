@@ -65,7 +65,7 @@ main {
 #logo {
     position: absolute;
     top: 4%;
-    left: 40%;
+    left: 39%;
     height: 15%;
     width: 24%;
 }
@@ -98,11 +98,17 @@ body{
   .side-nav a {
    
     text-decoration: none;
-    font-size: 126%;
+    font-size: 120%;
     color: #818181;
     display: block;
     margin: 15%;
-  }
+    justify-content: center;
+    display: flex;
+    
+    position: relative;
+    left: -12%;
+}
+  
   
   .side-nav a:hover {
     color: #f1f1f1;
@@ -170,16 +176,7 @@ h1{
  p3{
     font-size:126% ;
  }
- .info a{
-    text-decoration: none;
-    font-size: 120%;
-    color: #818181;
-    display: block;
-    margin: 13%;
-     left: -13%;
-     position: relative;
-     overflow: hidden;
- }
+ 
  .info p{
     font-size: 126%;
     left: -17%;
