@@ -58,6 +58,8 @@ main {
    
         background-image: url(https://pbs.twimg.com/media/FUQXHIgVUAAlXpj?format=jpg&name=4096x4096);
         background-size: cover;
+        height:100%;
+        width: 100%;
       }
     
 
@@ -79,7 +81,9 @@ position: absolute;
 body{
    
     background-color: #59677c;
-    margin-left: 14.5%
+    margin-left: 14.5%;
+    height: 100%;
+    width: 85%;
 }
 
 .side-nav {
